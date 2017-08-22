@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF481D4A1F38097100533913 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF481D491F38097100533913 /* AppDelegate.swift */; };
+		CF481D4C1F38097100533913 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF481D4B1F38097100533913 /* ViewController.swift */; };
+		CF481D4F1F38097100533913 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF481D4D1F38097100533913 /* Main.storyboard */; };
+		CF481D511F38097100533913 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF481D501F38097100533913 /* Assets.xcassets */; };
+		CF481D541F38097100533913 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF481D521F38097100533913 /* LaunchScreen.storyboard */; };
+		CF481D5F1F38097100533913 /* Egg_timerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF481D5E1F38097100533913 /* Egg_timerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF481D5B1F38097100533913 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF481D3E1F38097100533913 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF481D451F38097100533913;
+			remoteInfo = "Egg timer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF481D461F38097100533913 /* Egg timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Egg timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF481D491F38097100533913 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF481D4B1F38097100533913 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF481D4E1F38097100533913 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF481D501F38097100533913 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF481D531F38097100533913 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF481D551F38097100533913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF481D5A1F38097100533913 /* Egg timerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Egg timerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF481D5E1F38097100533913 /* Egg_timerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Egg_timerTests.swift; sourceTree = "<group>"; };
+		CF481D601F38097100533913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF481D431F38097100533913 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF481D571F38097100533913 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF481D3D1F38097100533913 = {
+			isa = PBXGroup;
+			children = (
+				CF481D481F38097100533913 /* Egg timer */,
+				CF481D5D1F38097100533913 /* Egg timerTests */,
+				CF481D471F38097100533913 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF481D471F38097100533913 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF481D461F38097100533913 /* Egg timer.app */,
+				CF481D5A1F38097100533913 /* Egg timerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF481D481F38097100533913 /* Egg timer */ = {
+			isa = PBXGroup;
+			children = (
+				CF481D491F38097100533913 /* AppDelegate.swift */,
+				CF481D4B1F38097100533913 /* ViewController.swift */,
+				CF481D4D1F38097100533913 /* Main.storyboard */,
+				CF481D501F38097100533913 /* Assets.xcassets */,
+				CF481D521F38097100533913 /* LaunchScreen.storyboard */,
+				CF481D551F38097100533913 /* Info.plist */,
+			);
+			path = "Egg timer";
+			sourceTree = "<group>";
+		};
+		CF481D5D1F38097100533913 /* Egg timerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF481D5E1F38097100533913 /* Egg_timerTests.swift */,
+				CF481D601F38097100533913 /* Info.plist */,
+			);
+			path = "Egg timerTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF481D451F38097100533913 /* Egg timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF481D631F38097100533913 /* Build configuration list for PBXNativeTarget "Egg timer" */;
+			buildPhases = (
+				CF481D421F38097100533913 /* Sources */,
+				CF481D431F38097100533913 /* Frameworks */,
+				CF481D441F38097100533913 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Egg timer";
+			productName = "Egg timer";
+			productReference = CF481D461F38097100533913 /* Egg timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF481D591F38097100533913 /* Egg timerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF481D661F38097100533913 /* Build configuration list for PBXNativeTarget "Egg timerTests" */;
+			buildPhases = (
+				CF481D561F38097100533913 /* Sources */,
+				CF481D571F38097100533913 /* Frameworks */,
+				CF481D581F38097100533913 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF481D5C1F38097100533913 /* PBXTargetDependency */,
+			);
+			name = "Egg timerTests";
+			productName = "Egg timerTests";
+			productReference = CF481D5A1F38097100533913 /* Egg timerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF481D3E1F38097100533913 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Joao Medrado";
+				TargetAttributes = {
+					CF481D451F38097100533913 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = SC5AWG42PG;
+						ProvisioningStyle = Automatic;
+					};
+					CF481D591F38097100533913 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = SC5AWG42PG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF481D451F38097100533913;
+					};
+				};
+			};
+			buildConfigurationList = CF481D411F38097100533913 /* Build configuration list for PBXProject "Egg timer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF481D3D1F38097100533913;
+			productRefGroup = CF481D471F38097100533913 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF481D451F38097100533913 /* Egg timer */,
+				CF481D591F38097100533913 /* Egg timerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF481D441F38097100533913 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF481D541F38097100533913 /* LaunchScreen.storyboard in Resources */,
+				CF481D511F38097100533913 /* Assets.xcassets in Resources */,
+				CF481D4F1F38097100533913 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF481D581F38097100533913 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF481D421F38097100533913 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF481D4C1F38097100533913 /* ViewController.swift in Sources */,
+				CF481D4A1F38097100533913 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF481D561F38097100533913 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF481D5F1F38097100533913 /* Egg_timerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF481D5C1F38097100533913 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF481D451F38097100533913 /* Egg timer */;
+			targetProxy = CF481D5B1F38097100533913 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF481D4D1F38097100533913 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF481D4E1F38097100533913 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF481D521F38097100533913 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF481D531F38097100533913 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF481D611F38097100533913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF481D621F38097100533913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF481D641F38097100533913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SC5AWG42PG;
+				INFOPLIST_FILE = "Egg timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joaomedrado.Egg-timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CF481D651F38097100533913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SC5AWG42PG;
+				INFOPLIST_FILE = "Egg timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joaomedrado.Egg-timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CF481D671F38097100533913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SC5AWG42PG;
+				INFOPLIST_FILE = "Egg timerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joaomedrado.Egg-timerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Egg timer.app/Egg timer";
+			};
+			name = Debug;
+		};
+		CF481D681F38097100533913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SC5AWG42PG;
+				INFOPLIST_FILE = "Egg timerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joaomedrado.Egg-timerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Egg timer.app/Egg timer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF481D411F38097100533913 /* Build configuration list for PBXProject "Egg timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF481D611F38097100533913 /* Debug */,
+				CF481D621F38097100533913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF481D631F38097100533913 /* Build configuration list for PBXNativeTarget "Egg timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF481D641F38097100533913 /* Debug */,
+				CF481D651F38097100533913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF481D661F38097100533913 /* Build configuration list for PBXNativeTarget "Egg timerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF481D671F38097100533913 /* Debug */,
+				CF481D681F38097100533913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF481D3E1F38097100533913 /* Project object */;
+}
